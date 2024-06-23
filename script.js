@@ -20,5 +20,5 @@ function calculate() {
         scores.biology * 0.3 + scores.geography * 0.3 + scores.sports
     );
 
-    document.getElementById('result').innerText = `原始分: ${originalScore} 折算分: ${convertedScore} 满分: 1090/800`;
+    document.getElementById('result').innerText = `原始分: ${originalScore} 折算分: ${convertedScore} \r\n满分: 1090/800`;
 }
