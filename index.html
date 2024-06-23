@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生成绩计算器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>学生成绩计算器</h1>
+        <form id="gradeForm">
+            <label for="chinese">语文:</label>
+            <input type="text" id="chinese" name="chinese"><br>
+            <label for="math">数学:</label>
+            <input type="text" id="math" name="math"><br>
+            <label for="english">英语:</label>
+            <input type="text" id="english" name="english"><br>
+            <label for="politics">政治:</label>
+            <input type="text" id="politics" name="politics"><br>
+            <label for="history">历史:</label>
+            <input type="text" id="history" name="history"><br>
+            <label for="physics">物理:</label>
+            <input type="text" id="physics" name="physics"><br>
+            <label for="chemistry">化学:</label>
+            <input type="text" id="chemistry" name="chemistry"><br>
+            <label for="biology">生物:</label>
+            <input type="text" id="biology" name="biology"><br>
+            <label for="geography">地理:</label>
+            <input type="text" id="geography" name="geography"><br>
+            <label for="sports">体育:</label>
+            <input type="text" id="sports" name="sports"><br>
+            <button type="button" onclick="calculate()">计算</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
